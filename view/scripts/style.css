@@ -1,0 +1,54 @@
+site_header {
+	width:100%;
+	margin-left:500px;
+  margin-right:auto;
+  margin-top: 80px;
+}
+.site_logo{
+  height:300px;    
+}
+#menu {
+  height: 84px;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontal-list li {
+  display: inline;
+}
+.alexlist{
+	float:left;
+	border: solid 3px red;
+ margin-left:auto; 
+ margin-right:auto;
+}
+.nicklist{
+	float:left;
+	border: solid 3px green;
+  margin-left:auto; 
+  margin-right:auto;
+}
+.fatherlist{
+	float:left;
+	border: solid 3px green;
+ margin-left:auto; 
+ margin-right:auto;
+}
+.motherlist{
+	float:left;
+	border: solid 3px green;
+  margin-left:auto; 
+  margin-right:auto;
+}
+.omalist{
+	float:left;
+	border: solid 3px red;
+  margin-left:auto; 
+  margin-right:auto;
+}
+footer{
+  clear:both;
+}
