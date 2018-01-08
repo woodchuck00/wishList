@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -10,8 +11,7 @@
    <img class="site_logo" src='view/images/santa.gif' alt='The Santa Logo' >
    <h1>Theodor Christmas List</h1>
 <!-- change menu based on if user is logged in or not -->
-   <?php session_start();
-   if(!isset($_SESSION['username'])) { ?>
+   <?php if(!isset($_SESSION['username'])) { ?>
    <div id="menu">
        <ul id="horizontal-list">
          <li><a href="index.php?page=register">Register</a></li>
