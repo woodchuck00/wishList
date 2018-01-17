@@ -24,8 +24,8 @@ class ItemList {
 
     $list = $stmt->fetchAll();
 
-		return $list;
-	}
+    return $list;
+  }
   // add item to list table
   public function add(&$errors) {
     if(empty($_REQUEST["caller"])) {
